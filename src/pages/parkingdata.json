@@ -1,0 +1,23 @@
+[
+  {
+    "id": "smartpark1",
+    "parkingname": "MIT Academy of Engieering",
+    "totalslot": 5,
+    "totalfloor": 1,
+    "parkingtime": "Prediction to be done"
+  },
+  {
+    "id": "smartpark2",
+    "parkingname": "ABC Parking",
+    "totalslot": 50,
+    "totalfloor": 3,
+    "parkingtime": "Prediction to be done"
+  },
+  {
+    "id": "smartpark3",
+    "parkingname": "Pay and Park",
+    "totalslot": 50,
+    "totalfloor": 3,
+    "parkingtime": "Prediction to be done"
+  }
+]
