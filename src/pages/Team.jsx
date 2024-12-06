@@ -7,32 +7,24 @@ const teamData = [
         email: 'amey.khamkar@mitaoe.ac.in',
         photo: 'https://media.licdn.com/dms/image/v2/D5635AQFlYKSEtVP8wA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1710363904062?e=1734120000&v=beta&t=3e5adrf6RadaRksX8IyXNUaTGfR71wQ5YsdsmMnvKvg',
         linkedin: 'https://www.linkedin.com/in/amey-khamkar/',
-        github: 'https://github.com/ameykhamkar',
-        instagram: 'https://instagram.com/ameykhamkar'
     },
     {
         name: 'Patik Patil',
         email: 'pratikv.patil@mitaoe.ac.in',
         photo: 'https://media.licdn.com/dms/image/v2/D4D03AQFR1aaoe7BrQg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707822522087?e=1738800000&v=beta&t=y9MRZYJ67Uj3eIWuCuU_aKddGwYvloXLjnjpA8Y4zT0',
         linkedin: 'https://www.linkedin.com/in/pratik-patil-3b79b8247/',
-        github: 'https://github.com/pratikpatil',
-        instagram: 'https://instagram.com/pratikv.patil'
     },
     {
         name: 'Tejas Pingale',
         email: 'tejas.pingale@mitaoe.ac.in',
         photo: 'https://media.licdn.com/dms/image/v2/D5603AQGMdlncdQDNGQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1679674598328?e=1738800000&v=beta&t=WRCnjOEWVUVVMQ3_WgKd4kM2NcNjU6N5rgp0P3CVnxc',
         linkedin: 'https://www.linkedin.com/in/tejas-pingale/',
-        github: 'https://github.com/tejspingale',
-        instagram: 'https://instagram.com/tejaspingale'
     },
     {
         name: 'Mohit Jaiswal',
         email: 'mohit.jaiswal@mitaoe.ac.in',
         photo: 'https://media.licdn.com/dms/image/v2/D5603AQH9t69K-2uxfA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714998026632?e=1738800000&v=beta&t=U_wvXy7vULc9pc3t0TLQxl_N1QZQ1kov9SIxcL6QdiQ',
         linkedin: 'https://www.linkedin.com/in/mohitjaiswal28/',
-        github: 'https://github.com/mohitjaiswal28',
-        instagram: 'https://instagram.com/mohitjaiswal28'
     },
 ];
 
@@ -120,8 +112,6 @@ const Team = () => {
                                 <div style={styles.name}>{member.email}</div>
                                 <div style={styles.name}>MIT Academy of Engineering</div>
                                 <a href={member.linkedin} target="_blank" rel="noopener noreferrer" style={styles.socialLink} onMouseOver={(e) => e.target.style.color = styles.socialLinkHover.color} onMouseOut={(e) => e.target.style.color = styles.socialLink.color}><FaLinkedin /></a>
-                                <a href={member.github} target="_blank" rel="noopener noreferrer" style={styles.socialLink} onMouseOver={(e) => e.target.style.color = styles.socialLinkHover.color} onMouseOut={(e) => e.target.style.color = styles.socialLink.color}><FaGithub /></a>
-                                <a href={member.instagram} target="_blank" rel="noopener noreferrer" style={styles.socialLink} onMouseOver={(e) => e.target.style.color = styles.socialLinkHover.color} onMouseOut={(e) => e.target.style.color = styles.socialLink.color}><FaInstagram /></a>
                             </div>
                         ))}
                     </div>

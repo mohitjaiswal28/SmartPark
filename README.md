@@ -1,12 +1,12 @@
 <h1 align="center" id="title" style="margin-bottom: 1rem">SmartPark</h1>
 
-<p align="center"><img src="https://your-image-url.com" alt="SmartPark Project" style="border-radius: 1rem; width: 80rem"></p>
+<p align="center"><img src="https://socialify.git.ci/mohitjaiswal28/SmartPark/image?language=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Light" alt="SmartPark Project" style="border-radius: 1rem; width: 80rem"></p>
 
 <p id="description">SmartPark is an innovative parking management system that helps users find and reserve parking spots in real-time. Built with React.js, the system offers seamless navigation and a modern user experience. With features like live parking availability, reservation management, and real-time notifications, SmartPark optimizes parking space utilization while providing a smooth user journey.</p>
 
 <h2 style="margin-bottom: 0.5rem">Deployment Link 📦</h2>
 
-🌐 **Explore it here**: [SmartPark Live Demo](https://your-deployment-link.com)
+🌐 **Explore it here**: [SmartPark Live Demo](https://smartpark-mitaoe.netlify.app/)
 
 <h2 style="margin-bottom: 0.5rem">Features 🔥</h2>
 
@@ -33,6 +33,6 @@ I. Prerequisites:
 II. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/smartpark
-cd smartpark
+git clone https://github.com/mohitjaiswal28/SmartPark
+cd SmartPark
 ```
